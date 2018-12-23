@@ -1,0 +1,58 @@
+{
+  "name": "zmarkan",
+  "version": "1.0.0",
+  "description": "Peronal npm card for Zan Markan (@zmarkan)",
+  "main": "bin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zmarkan/zmarkan-card.git"
+  },
+  "scripts": {
+    "prepublishOnly": "webpack"
+  },
+  "bin": {
+    "zmarkan": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Zan Markan",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "lodash.get": "^4.4.2",
+    "webpack": "^4.28.1",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.1.2"
+  },
+  "myCard": {
+    "name": "          Zan Markan",
+    "handle": "<green> / </>zmarkan",
+    "data": {
+      ".empty-line-100": "",
+      "<blue>Work</>": "Developer Relations, Pusher",
+      ".empty-line-200": "",
+      "Twitter": "https://twitter.com/<cyan>zmarkan</>",
+      "npm": "https://www.npmjs.com/<red>~zmarkan</>",
+      "GitHub": "https://github.com/<green>zmarkan</>",
+      "LinkedIn": "https://www.linkedin.com/in/<blue>zmarkan</>",
+      "Web": "<cyan>markan.me</>",
+      ".empty-line-300": "",
+      "Card": "<red>npx</> zmarkan"
+    }
+  }
+}
